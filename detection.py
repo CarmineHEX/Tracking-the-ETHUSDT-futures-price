@@ -1,6 +1,6 @@
 import asyncio
 from time import sleep, time
-from data import get_current_value_price
+from price import get_current_value_price
 import threading
 import ccxt
 import numpy as np
